@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="8791SN2"
   DTS:CreatorName="CARACOLKNITS\cvaquedano"
-  DTS:DTSID="{39AB110C-8449-4E78-8799-B0EE591C6BE7}"
+  DTS:DTSID="{845B7089-B7E6-4C6B-B79A-1356DB8A9466}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.1100.123"
   DTS:LocaleID="1033"
-  DTS:ObjectName="BasicTransformations"
+  DTS:ObjectName="3 BasicTransformations"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{DF06682E-A05C-4608-954F-606596B884CF}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{B06176C5-39E5-4E8B-B88C-6ED43CED5400}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3144,7 +3144,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Mujeres">
+    design-time-name="Package\Data Flow Task\OLE DB Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3157,7 +3157,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Destination 1">
+    design-time-name="Package\Data Flow Task\Mujeres">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
