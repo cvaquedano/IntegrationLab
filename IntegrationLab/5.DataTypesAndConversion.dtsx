@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="5 DataTypesAndConversion"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{CF0A4BBE-B00D-4CF3-8390-FA2BFBD08BE1}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{93F66B2A-1360-4DFF-82EB-451387628E66}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\cvaquedano\source\repos\IntegrationLab\Asignatures.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\cvaquedano\source\repos\IntegrationLab\Asignatures.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -428,39 +428,39 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Execute SQL Task"
-          TopLeft="275.428576119092,56.2823537305152" />
-        <NodeLayout
           Size="150.4,41.6"
           Id="Package\Data Flow Task"
           TopLeft="289.714290648091,132.141178323818" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Execute SQL Task"
+          TopLeft="275.428576119092,56.2823537305152" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="356.628576119092,97.8823537305152">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="8.28571452899848,34.2588245933031"
+              EndConnector="8.28571452899899,34.2588245933028"
               Start="0,0"
-              End="8.28571452899848,26.7588245933031">
+              End="8.28571452899899,26.7588245933028">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.1294122966516" />
+                    End="0,13.1294122966514" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.1294122966516"
-                    Point2="0,17.1294122966516"
-                    Point3="4,17.1294122966516" />
+                    Point1="0,13.1294122966514"
+                    Point2="0,17.1294122966514"
+                    Point3="4,17.1294122966514" />
                   <mssgle:LineSegment
-                    End="4.28571452899848,17.1294122966516" />
+                    End="4.28571452899899,17.1294122966514" />
                   <mssgle:CubicBezierSegment
-                    Point1="4.28571452899848,17.1294122966516"
-                    Point2="8.28571452899848,17.1294122966516"
-                    Point3="8.28571452899848,21.1294122966516" />
+                    Point1="4.28571452899899,17.1294122966514"
+                    Point2="8.28571452899899,17.1294122966514"
+                    Point3="8.28571452899899,21.1294122966514" />
                   <mssgle:LineSegment
-                    End="8.28571452899848,26.7588245933031" />
+                    End="8.28571452899899,26.7588245933028" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
